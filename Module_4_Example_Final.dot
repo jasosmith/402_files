@@ -1,0 +1,397 @@
+digraph HealthSystem_FullElementTemplate {
+  label="Generic Public Health Problem";
+  rankdir=TD;
+  node [shape=box, style="rounded, filled", fillcolor="white", fontname="Arial"];
+
+//- Add your team number, class section, and names below */
+
+
+ // Team Number : Health Problem Team
+  // Class Section PUBH 402 Sec 99
+  // Team Member Names: name1, name2, name3, name4, name5
+
+
+  // ==================================================
+  // CARE PROVIDERS
+  // ==================================================
+  //primary_care_visit_capacity [label="Primary care visit capacity"];
+// Reason for not choosing this element here.
+// Nwosu, C. A., & Fitzgerald, M. P. (2022). Primary care visit capacity constraints and unmet health needs: A cross-sectional analysis of county-level data. Fake Primary Care Access Research, 13(1), 9–25. https://doi.org/10.1016/fpcar.2022.00009
+
+ // primary_care_coordination_capacity [label="Primary care care coordination capacity"];
+ // Reason for not choosing this element here.
+ // Sato, K. L., & Abimbola, D. O. (2021). Care coordination capacity in primary care settings and chronic disease management outcomes. Fake Care Coordination Research, 5(3), 48–64. https://doi.org/10.1097/fccr.0000000000000048
+
+  //specialty_care_visit_capacity [label="Specialty care visit capacity"];
+//reason for not choosing this element here.
+// Elias, T. B., & Ozoemena, G. K. (2023). Specialty care visit capacity and referral completion rates in Medicaid populations. Fake Specialty Access Studies, 8(2), 31–47. https://doi.org/10.1016/fsas.2023.00031
+
+  //specialty_care_referral_availability [label="Specialty care referral availability"];
+//reason for not choosing this element here.
+// Osei, P. A., & Hernandez, R. V. (2022). Specialty care referral availability and time-to-treatment delays in managed care networks. Fake Referral and Access Research, 7(4), 85–101. https://doi.org/10.1097/frar.0000000000000085
+
+  // ==================================================
+  // FEDERAL AND STATE POLICY (1 CHOICE FROM HERE OR FROM ENFORCEMENT AND ACCOUNTABILITY)
+  // ==================================================
+  medicaid_eligibility_rules [
+    label="Medicaid eligibility rules"
+  ];
+
+  // reason for including this here.
+
+  /* medicare_coverage_rules [
+    label="Medicare coverage rules"
+  ];
+// reason for not choosing this element here.
+  //scope_of_practice_laws [
+    label="State scope-of-practice laws"
+  ];
+// reason for not choosing this element here.
+  //federal_regulatory_requirements [
+    label="Federal regulatory requirements"
+  ];
+  // reason for not choosing this element here.
+*/
+  // ==================================================
+  // ENFORCEMENT AND ACCOUNTABILITY
+  // ==================================================
+ /* administrative_processing_capacity [
+    label="Capacity for administrative processing"
+  ];
+// reason for not choosing this element here.
+// Iwu, A. K., & Stenberg, M. P. (2022). Administrative processing capacity and claims adjudication efficiency in state Medicaid agencies. Fake Health Administration Research, 6(1), 20–36. https://doi.org/10.1016/fhar.2022.00020
+  sanctions [
+    label="Sanctions"
+  ];
+// reason for not choosing this element here.
+// Dlamini, B. F., & Kamara, J. T. (2021). Regulatory sanctions and provider compliance behavior in Medicare and Medicaid programs. Fake Regulatory Enforcement Research, 4(3), 57–73. https://doi.org/10.1097/frer.0000000000000057
+  reimbursement_requirements [
+    label="Reimbursement requirements"
+  ];
+// reason for not choosing this element here.
+// Okafor, N. C., & Persson, L. A. (2023). Reimbursement requirement structures and provider participation in public insurance programs. Fake Reimbursement Policy Studies, 9(2), 41–57. https://doi.org/10.1016/frps.2023.00041
+  administrative_staffing [
+    label="Administrative staffing"
+  ];
+// reason for not choosing this element here.
+// Mwangi, A. O., & Goldfarb, R. E. (2022). Administrative staffing levels and regulatory compliance burden in health care organizations. Fake Health Admin Workforce, 3(4), 76–92. https://doi.org/10.1097/fhaw.0000000000000076
+  */
+
+  // ==================================================
+  // FINANCING / INSURANCE (1 REQUIRED FROM HERE)
+  // ==================================================
+ /* medicare_enrollment [
+    label="Medicare enrollment"
+  ];
+// reason for not choosing this element here.
+*/ 
+   medicaid_enrollment [
+    label="Medicaid enrollment"
+  ];
+// reason for not choosing this element here.
+
+//   employer_insurance_enrollment [
+   // label="Employer-based insurance enrollment"
+  //];
+// reason for not choosing this element here.
+
+  uninsured_population [
+    label="Uninsured population size"
+  ];
+// reason for choosing this element here.
+
+  // ==================================================
+  // FUNDING
+  // ==================================================
+  state_general_fund_health_allocations [
+    label="State general fund health allocations"
+  ];
+// reason for choosing this element here.
+ // federal_discretionary_health_funding [
+   // label="Federal discretionary health funding"
+  //];
+// reason for not choosing this element here.
+
+  public_health_grant_funding [
+    label="Public health grant funding"
+  ];
+// reason for choosing this element here.
+
+//  safety_net_provider_subsidies [
+//    label="Safety-net provider subsidies"
+ // ];
+// reason for not choosing this element here.
+
+//  household_out_of_pocket_spending [
+  //  label="Household out-of-pocket spending"
+  //];
+//  reason for not choosing this element here.
+
+
+  // ==================================================
+  // PAYMENT MODELS (1 REQUIRED FROM HERE)
+  // ==================================================
+
+//  fee_for_service_payment_prevalence [
+  //  label="Fee-for-service payment prevalence"
+  //];
+// reason for not choosing this element here.
+
+  value_based_payment_adoption [
+    label="Value-based payment adoption"
+  ];
+// reason for choosing this element here.
+
+//  capitated_payment_prevalence [
+  //  label="Capitated payment prevalence"
+ // ];
+// reason for not choosing this element here.
+
+ /* bundled_payment_use [
+    label="Bundled payment use"
+  ];
+Reason for not choosing this element here.
+  */
+
+  // ==================================================
+  // PHARMACEUTICALS AND DEVICES
+  // ==================================================
+  /* prescription_drug_pricing [
+    label="Prescription drug pricing levels"
+  ];
+
+Reason for not choosing this element here.
+  drug_formulary_restrictions [
+    label="Drug formulary restrictions"
+  ];
+
+Reason for not choosing this element here.
+  medical_device_availability [
+    label="Medical device availability"
+  ];
+
+reason for not choosing this element here.
+  
+  pharmaceutical_market_concentration [
+    label="Pharmaceutical market concentration"
+  ];
+Reason for not choosing this element here.
+  */
+  // ==================================================
+  // PUBLIC HEALTH
+  // ==================================================
+  public_health_surveillance_capacity [
+    label="Public health surveillance capacity"
+  ];
+// reason for choosing this element here.
+  preventive_service_availability [
+    label="Preventive service availability"
+  ];
+// reason for choosing this element here.
+
+  community_health_program_capacity [
+    label="Community-based health program capacity"
+  ];
+// reason for choosing this element here.
+
+/*  health_communication_effectiveness [
+    label="Health communication effectiveness"
+  ];
+reason for not choosing this element here.
+  */
+
+  // ==================================================
+  // STRUCTURAL DETERMINANTS (1 REQUIRED FROM HERE)
+  // ==================================================
+ /* housing_stability [
+    label="Housing stability"
+  ];
+reason for not choosing this element here.
+  */
+
+  income_security [
+    label="Income security"
+  ];
+// reason for choosing this element here.
+
+/*  transportation_access [
+    label="Transportation access"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* environmental_conditions [
+    label="Environmental conditions"
+  ];
+reason for not choosing this element here.
+  */
+
+  // ==================================================
+  // STRUCTURAL INEQUITIES (1 REQUIRED FROM HERE)
+  // ==================================================
+  racialized_residential_segregation [
+    label="Racialized residential segregation"
+  ];
+// reason for choosing this element here.
+
+/*  occupational_stratification [
+    label="Occupational stratification by race and gender"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* differential_environmental_exposure [
+    label="Differential exposure to environmental hazards"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* inequitable_access_to_resources [
+    label="Inequitable access to health-promoting resources"
+  ];
+reason for not choosing this element here.
+  */    
+
+
+  // ==================================================
+  // WORKFORCE
+  // ==================================================
+  /* primary_care_clinician_supply [
+    label="Primary care clinician supply"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* specialist_clinician_supply [
+    label="Specialist clinician supply"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* nursing_workforce_availability [
+    label="Nursing workforce availability"
+  ];
+reason for not choosing this element here.
+  */
+    public_health_workforce_capacity [
+    label="Public health workforce capacity"
+  ];
+// reason for choosing this element here.
+
+  // ==================================================
+  // INFRASTRUCTURE
+  // ==================================================
+  /* hospital_bed_capacity [
+    label="Hospital bed capacity"
+  ];
+reason for not choosing this element here.
+  */
+
+  /* primary_care_facility_availability [
+    label="Primary care facility availability"
+  ];
+reason for not choosing this element here.
+  */
+
+/*   health_it_interoperability [
+    label="Health information technology interoperability"
+  ];
+reason for not choosing this element here.
+  */
+
+ /*  emergency_care_access [
+    label="Emergency care access"
+  ];
+reason for not choosing this element here.
+  */    
+
+// =================================================
+// ELEMENT RELATIONSHIPS
+// =================================================
+
+
+
+
+
+public_health_surveillance_capacity -> state_general_fund_health_allocations [label="+ delay"];
+
+// This relationship indicates that higher public health surveillance capacity leads to increased state general fund health allocations, but with a delay due to the time it takes for data collection, analysis, and reporting to influence funding decisions.
+
+//Harrington, M. L., Chen, S., & Okafor, D. R. (2024). State fiscal responses to expanded epidemiological surveillance infrastructure: A longitudinal analysis of discretionary spending patterns, 2010–2023. American Journal of Fake Health Policy, 18(3), 112–129. https://doi.org/10.1097/ajhp.0000000000000XXX
+
+
+community_health_program_capacity -> public_health_workforce_capacity [label="+"];
+// This relationship indicates that increased community-based health program capacity leads to increased public health workforce capacity, 
+
+//Nguyen, T. A., Patel, R. S., & Washington, C. L. (2023). Community health program expansion and workforce development: Evidence from federally qualified health centers, 2015–2022. Journal of Fake Public Health Management, 29(4), 201–215. https://doi.org/10.1097/jphm.0000000000000YYY
+
+community_health_program_capacity -> income_security [label="+ (long delay ||)"];
+// This relationship indicates that increased community-based health program capacity leads to increased income security, but with a delay due to the time it takes for programs to be implemented and economic benefits to be realized.
+
+//Torres, J. M., Kim, B. H., & Osei-Bonsu, P. (2022). Long-run income effects of community health investment: A quasi-experimental study across urban and rural settings. American Journal of Fake Health Economics, 11(2), 77–94. https://doi.org/10.1257/ajfhe.0000000000000ZZZ
+
+medicaid_eligibility_rules -> medicaid_enrollment [label="+ delay (more inclusive rules increase enrollment)"];
+// This relationship indicates that more inclusive Medicaid eligibility rules lead to increased Medicaid enrollment, but with a delay due to the time it takes for individuals to become aware of the rules, apply for coverage, and complete the enrollment process.
+
+//Feldman, A. R., Gutierrez, C. M., & Park, S. Y. (2023). Medicaid eligibility expansions and enrollment uptake: A national cross-state analysis, 2014–2021. Journal of Fake Health Policy Research, 45(1), 33–51. https://doi.org/10.1016/j.jfhpr.0000000000000AAA
+
+medicaid_enrollment -> uninsured_population [label="- delay (more enrollment decreases uninsured population)"];
+// This relationship indicates that increased Medicaid enrollment leads to a decrease in the uninsured population, but with a delay due to the time it takes for individuals to enroll in Medicaid and for the effects of coverage to be realized.
+
+//Brennan, L. K., Okafor, D. R., & Chen, S. (2021). Medicaid enrollment and the reduction of uninsurance: Panel data evidence from ACA expansion states. Journal of Fake Health Coverage Studies, 8(3), 144–160. https://doi.org/10.1093/jfhcs.0000000000000BBB
+
+state_general_fund_health_allocations -> public_health_grant_funding [label="+"];
+
+// This relationship indicates that increased state general fund health allocations lead to increased community-based health program capacity
+// Petrov, I. A., & Diallo, M. S. (2021). State health budget allocations and public health grant program sustainability: A structural equation modeling approach. Fake State Health Finance, 10(2), 38–54. https://doi.org/10.1016/fshf.2021.00038
+
+public_health_workforce_capacity -> preventive_service_availability [label="+"];
+// This relationship indicates that increased public health workforce capacity leads to increased availability of preventive services
+// Bouchard, C. E., & Nwofor, T. A. (2022). Public health workforce size and preventive service delivery rates: Evidence from accredited local health departments. Fake Preventive Workforce Research, 8(4), 73–89. https://doi.org/10.1097/fpwr.0000000000000073
+
+
+public_health_grant_funding -> community_health_program_capacity [label="+ delay"];
+// This relationship indicates that increased public health grant funding leads to increased community-based health program capacity, but with a delay due to the time it takes for funding to be allocated, programs to be developed, and staff to be hired and trained.
+// Rashid, O. T., & Lindberg, S. N. (2023). Grant funding cycles and community health program development timelines: A retrospective analysis. Fake Grant and Program Research, 2(1), 7–23. https://doi.org/10.1016/fgpr.2023.00007
+  
+
+public_health_surveillance_capacity -> value_based_payment_adoption [label="+ delay"];
+// This relationship indicates that higher public health surveillance capacity leads to increased adoption of value-based payment models, but with a delay due to the time it takes for data collection, analysis, and reporting to influence payment model decisions.
+// Obinna, C. H., & Garza, M. R. (2022). Population health surveillance data and value-based contracting adoption among payers and providers. Fake Value-Based Care Research, 6(3), 55–71. https://doi.org/10.1097/fvbcr.0000000000000055
+
+uninsured_population -> income_security [label="- delay"];
+// This relationship indicates that a decrease in the uninsured population leads to increased income security, but with a delay due to the time it takes for individuals to gain coverage and for the economic benefits to be realized.
+// Kessler, A. J., & Olayinka, B. F. (2021). Health insurance coverage and household financial stability: Evidence from Medicaid expansion counties. Fake Insurance and Economic Security, 14(2), 28–44. https://doi.org/10.1016/fies.2021.00028
+
+racialized_residential_segregation -> income_security [label="- delay"];
+// This relationship indicates that higher levels of racialized residential segregation lead to decreased income security, but with a delay due to the time it takes for structural inequities to impact economic opportunities and outcomes.
+// Nkemdirim, A. O., & Cohen, R. T. (2023). Residential segregation indices and intergenerational income mobility: A structural racism framework. Fake Structural Racism and Health, 3(2), 14–30. https://doi.org/10.1097/fsrh.0000000000000014
+
+preventive_service_availability -> income_security [label="+ delay"];
+// This relationship indicates that increased availability of preventive services leads to increased income security, but with a delay due to the time it takes for individuals to access preventive services and for the health benefits to translate into economic stability.
+// Osei-Kwame, P. L., & Dumont, A. F. (2022). Preventive care utilization and long-term labor market outcomes: Evidence from community health center expansion. Fake Prevention and Economic Outcomes, 5(4), 82–98. https://doi.org/10.1016/fpeo.2022.00082
+
+preventive_service_availability -> public_health_surveillance_capacity [label="- long delay"];
+// This relationship indicates that increased availability of preventive services leads to decreased public health surveillance capacity, but with a delay due to the time it takes for preventive measures to reduce the incidence of health issues that require surveillance. This is a well-documented phenomenon in public health, where effective prevention can reduce the need for extensive surveillance over time thus reducing prevention and surveillance capacity.
+// Achebe, N. I., & Walters, C. M. (2023). Prevention success and surveillance atrophy: A historical analysis of public health funding cycles following disease reduction milestones. Fake Prevention Paradox Research, 1(1), 1–17. https://doi.org/10.1097/fppr.0000000000000001
+
+subgraph cluster_B1 {
+        label="Balancing Feedback Loop - Public health victim of its own success";
+        style="dashed";
+        fontname="Arial";
+        fonstsize=10;
+
+        public_health_surveillance_capacity;
+        preventive_service_availability;
+        public_health_grant_funding;
+        community_health_program_capacity;
+        state_general_fund_health_allocations;
+        public_health_workforce_capacity;
+
+}
+// This balancing feedback loop illustrates how increased public health surveillance capacity can lead to increased preventive service availability, which in turn can reduce the need for extensive surveillance over time, creating a balancing effect on the system. Public health can reduce the incidence of health problems. Policy makers believe that surveillance is less necessary when there is not a serious health problem.  Without surveillance there is no data to support the need for funding.  Without funding, there is less capacity to provide preventive services.  Without preventive services, there is more disease and more need for surveillance.  This loop illustrates how public health can be undermined by a lack of investment in prevention and surveillance and it's own success.
+// Ikenna, R. O., & Bjornstad, T. L. (2023). Balancing loops in public health systems: How success erodes capacity and the policy implications for sustained investment. Fake Systems Thinking in Public Health, 9(3), 110–127. https://doi.org/10.1016/fstph.2023.00110
+
+//Brennan, L. K., Nguyen, T. A., & Franklin, T. D. (2023). The public health success trap: Systems dynamics evidence for balancing feedback in prevention investment cycles. Journal of Fake Systems and Public Health, 7(4), 233–251. https://doi.org/10.1097/jfsph.0000000000000KKK
+
+}

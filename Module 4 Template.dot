@@ -1,0 +1,315 @@
+digraph HealthSystem_FullElementTemplate {
+  label="Your Health Problem Here";
+  rankdir=TD;
+  node [shape=box, style="rounded, filled", fillcolor="white", fontname="Arial"];
+
+//- Add your team number, class section, and names below */
+
+
+ // Team Number
+  // Class Section
+  // Team Member Names:
+
+
+/*  =================================================
+   STUDENT INSTRUCTIONS FOR ELEMENT LIST (NON-RENDERING COMMENTS)
+   ==================================================
+   - Do not remove the area headers
+   - If you are not using an element in your system map, comment it out and include your reasonging why it is not included.
+   - If you are using an element in your system map, leave it uncommented and include your reasoning why it is included as a comment below it.  
+   - If you are changing your mind about including an element from Module 3, include your reasoning for the change as a comment below it.
+   See the example below:
+*/
+
+// ==================================================
+  // EXAMPLE OF FORMATTING ELEMENTS - REMOVE THIS EXAMPLE WHEN YOU SUBMIT YOUR SYSTEM MAP
+  // ==================================================
+
+ // primary_care_visit_capacity [label="Primary care visit capacity"];
+ // Provide a reason here for why you are eliminating primary care visit capacity from your system map.  For example, "We are not including primary care visit capacity because we are focusing on the role of specialty care in our system map."  If this is a change from Module 3, please explain why you are changing your mind about including this element in your system map.  For example, "We are now including primary care visit capacity because we realized that it is an important factor in our system map."
+
+
+  primary_care_coordination_capacity [
+    label="Primary care care coordination capacity"
+  ];
+}
+// Provide a reason here for why you are including primary care care coordination capacity in your system map.  For example, "We are including primary care care coordination capacity because it is an important factor in our system map that affects access to specialty care."  If this is a change from Module 3, please explain why you are changing your mind about including this element in your system map.  For example, "We are now including primary care care coordination capacity because we realized that it is an important factor in our system map that affects access to specialty care."
+
+// =========================================================
+// END OF EXAMPLE OF FORMATTING ELEMENTS
+//===========================================================
+
+
+
+  // ==================================================
+  // CARE PROVIDERS
+  // ==================================================
+  primary_care_visit_capacity [
+    label="Primary care visit capacity"
+  ];
+
+  primary_care_coordination_capacity [
+    label="Primary care care coordination capacity"
+  ];
+
+  specialty_care_visit_capacity [
+    label="Specialty care visit capacity"
+  ];
+
+  specialty_care_referral_availability [
+    label="Specialty care referral availability"
+  ];
+
+  // ==================================================
+  // FEDERAL AND STATE POLICY
+  // ==================================================
+  medicaid_eligibility_rules [
+    label="Medicaid eligibility rules"
+  ];
+
+  medicare_coverage_rules [
+    label="Medicare coverage rules"
+  ];
+
+  scope_of_practice_laws [
+    label="State scope-of-practice laws"
+  ];
+
+  federal_regulatory_requirements [
+    label="Federal regulatory requirements"
+  ];
+
+  // ==================================================
+  // ENFORCEMENT AND ACCOUNTABILITY
+  // ==================================================
+  administrative_processing_capacity [
+    label="Capacity for administrative processing"
+  ];
+
+  sanctions [
+    label="Sanctions"
+  ];
+
+  reimbursement_requirements [
+    label="Reimbursement requirements"
+  ];
+
+  administrative_staffing [
+    label="Administrative staffing"
+  ];
+
+  // ==================================================
+  // FINANCING / INSURANCE
+  // ==================================================
+  medicare_enrollment [
+    label="Medicare enrollment"
+  ];
+
+  medicaid_enrollment [
+    label="Medicaid enrollment"
+  ];
+
+  employer_insurance_enrollment [
+    label="Employer-based insurance enrollment"
+  ];
+
+  uninsured_population [
+    label="Uninsured population size"
+  ];
+
+  // ==================================================
+  // FUNDING
+  // ==================================================
+  state_general_fund_health_allocations [
+    label="State general fund health allocations"
+  ];
+
+  federal_discretionary_health_funding [
+    label="Federal discretionary health funding"
+  ];
+
+  public_health_grant_funding [
+    label="Public health grant funding"
+  ];
+
+  safety_net_provider_subsidies [
+    label="Safety-net provider subsidies"
+  ];
+
+  household_out_of_pocket_spending [
+    label="Household out-of-pocket spending"
+  ];
+
+  // ==================================================
+  // PAYMENT MODELS
+  // ==================================================
+  fee_for_service_payment_prevalence [
+    label="Fee-for-service payment prevalence"
+  ];
+
+  value_based_payment_adoption [
+    label="Value-based payment adoption"
+  ];
+
+  capitated_payment_prevalence [
+    label="Capitated payment prevalence"
+  ];
+
+  bundled_payment_use [
+    label="Bundled payment use"
+  ];
+
+  // ==================================================
+  // PHARMACEUTICALS AND DEVICES
+  // ==================================================
+  prescription_drug_pricing [
+    label="Prescription drug pricing levels"
+  ];
+
+  drug_formulary_restrictions [
+    label="Drug formulary restrictions"
+  ];
+
+  medical_device_availability [
+    label="Medical device availability"
+  ];
+
+  pharmaceutical_market_concentration [
+    label="Pharmaceutical market concentration"
+  ];
+
+  // ==================================================
+  // PUBLIC HEALTH
+  // ==================================================
+  public_health_surveillance_capacity [
+    label="Public health surveillance capacity"
+  ];
+
+  preventive_service_availability [
+    label="Preventive service availability"
+  ];
+
+  community_health_program_capacity [
+    label="Community-based health program capacity"
+  ];
+
+  health_communication_effectiveness [
+    label="Health communication effectiveness"
+  ];
+
+  // ==================================================
+  // STRUCTURAL DETERMINANTS
+  // ==================================================
+  housing_stability [
+    label="Housing stability"
+  ];
+
+  income_security [
+    label="Income security"
+  ];
+
+  transportation_access [
+    label="Transportation access"
+  ];
+
+  environmental_conditions [
+    label="Environmental conditions"
+  ];
+
+  // ==================================================
+  // STRUCTURAL INEQUITIES
+  // ==================================================
+  racialized_residential_segregation [
+    label="Racialized residential segregation"
+  ];
+
+  occupational_stratification [
+    label="Occupational stratification by race and gender"
+  ];
+
+  differential_environmental_exposure [
+    label="Differential exposure to environmental hazards"
+  ];
+
+  inequitable_access_to_resources [
+    label="Inequitable access to health-promoting resources"
+  ];
+
+  // ==================================================
+  // WORKFORCE
+  // ==================================================
+  primary_care_clinician_supply [
+    label="Primary care clinician supply"
+  ];
+
+  specialist_clinician_supply [
+    label="Specialist clinician supply"
+  ];
+
+  nursing_workforce_availability [
+    label="Nursing workforce availability"
+  ];
+
+  public_health_workforce_capacity [
+    label="Public health workforce capacity"
+  ];
+
+  // ==================================================
+  // INFRASTRUCTURE
+  // ==================================================
+  hospital_bed_capacity [
+    label="Hospital bed capacity"
+  ];
+
+  primary_care_facility_availability [
+    label="Primary care facility availability"
+  ];
+
+  health_it_interoperability [
+    label="Health information technology interoperability"
+  ];
+
+  emergency_care_access [
+    label="Emergency care access"
+  ];
+
+// =================================================
+// ELEMENT RELATIONSHIPS
+// =================================================
+
+/*
+=========================================================
+STUDENT INSTRUCTIONS FOR SHOWING RELATIONSHIPS (NON-RENDERING COMMENTS)
+======================================================
+
+   - Add directional arrows to indicate causal relationships.
+   • Label each arrow with polarity (+ or -).
+   • Indicate delays where relevant (e.g., "+ delay", "- long delay").
+   - Use a comment // under each relationship to describe the relationships.
+   - Use comments for explanatory notes, questions, and additional information.
+   - Identify reinforcing (R) and balancing (B) loops using subgraphs.
+   • Focus on structural, population-level mechanisms.
+   • Do NOT default to individual behavior as an explanation.
+
+*/
+
+/* =================================================
+EXAMPLE OF FORMATTING RELATIONSHIPS - REMOVE THIS EXAMPLE WHEN YOU SUBMIT YOUR SYSTEM MAP
+==================================================
+Note in this example that the relationship is labeled with a polarity and a delay, and that there is a comment below the relationship that describes the relationship. References to support the relationship should be included. You should do this for all of your relationships in your system map. 
+
+*/
+
+
+Public_health_surveillance_capacity -> federal_discretionary_health_funding [label="+ long delay"];
+// This relationship indicates that higher public health surveillance capacity leads to increased federal discretionary health funding, but with a delay due to the time it takes for data collection, analysis, and reporting to influence funding decisions.
+
+//Harrington, M. L., Chen, S., & Okafor, D. R. (2024). Federal fiscal responses to expanded epidemiological surveillance infrastructure: A longitudinal analysis of discretionary spending patterns, 2010–2023. American Journal of Fake Health Policy, 18(3), 112–129. https://doi.org/10.1097/ajhp.0000000000000XXX
+
+federal discretionary_health_funding -> community_health_program_capacity [label="+ short delay"];
+// This relationship indicates that increased federal discretionary health funding leads to increased community-based health program capacity, but with a delay due to the time it takes for funding to be allocated, programs to be developed, and staff to be hired and trained.
+
+/* =========================================================
+END OF EXAMPLE OF FORMATTING RELATIONSHIPS - REMOVE THIS EXAMPLE WHEN YOU SUBMIT YOUR SYSTEM MAP
+=========================================================
+*/
