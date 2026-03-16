@@ -47,231 +47,233 @@ digraph HealthSystem_FullElementTemplate {
   primary_care_visit_capacity [
     label="Primary care visit capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   primary_care_coordination_capacity [
     label="Primary care care coordination capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   specialty_care_visit_capacity [
     label="Specialty care visit capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   specialty_care_referral_availability [
     label="Specialty care referral availability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // FEDERAL AND STATE POLICY
   // ==================================================
   medicaid_eligibility_rules [
     label="Medicaid eligibility rules"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   medicare_coverage_rules [
     label="Medicare coverage rules"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   scope_of_practice_laws [
     label="State scope-of-practice laws"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   federal_regulatory_requirements [
     label="Federal regulatory requirements"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // ENFORCEMENT AND ACCOUNTABILITY
   // ==================================================
   administrative_processing_capacity [
     label="Capacity for administrative processing"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   sanctions [
     label="Sanctions"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   reimbursement_requirements [
     label="Reimbursement requirements"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   administrative_staffing [
     label="Administrative staffing"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // FINANCING / INSURANCE
   // ==================================================
   medicare_enrollment [
     label="Medicare enrollment"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   medicaid_enrollment [
     label="Medicaid enrollment"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   employer_insurance_enrollment [
     label="Employer-based insurance enrollment"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   uninsured_population [
     label="Uninsured population size"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // FUNDING
   // ==================================================
   state_general_fund_health_allocations [
     label="State general fund health allocations"
   ];
-
+    /* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   federal_discretionary_health_funding [
     label="Federal discretionary health funding"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   public_health_grant_funding [
     label="Public health grant funding"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   safety_net_provider_subsidies [
     label="Safety-net provider subsidies"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   household_out_of_pocket_spending [
     label="Household out-of-pocket spending"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // PAYMENT MODELS
   // ==================================================
   fee_for_service_payment_prevalence [
     label="Fee-for-service payment prevalence"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   value_based_payment_adoption [
     label="Value-based payment adoption"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   capitated_payment_prevalence [
     label="Capitated payment prevalence"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   bundled_payment_use [
     label="Bundled payment use"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // PHARMACEUTICALS AND DEVICES
   // ==================================================
   prescription_drug_pricing [
     label="Prescription drug pricing levels"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   drug_formulary_restrictions [
     label="Drug formulary restrictions"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   medical_device_availability [
     label="Medical device availability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   pharmaceutical_market_concentration [
     label="Pharmaceutical market concentration"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // PUBLIC HEALTH
   // ==================================================
   public_health_surveillance_capacity [
     label="Public health surveillance capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   preventive_service_availability [
     label="Preventive service availability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   community_health_program_capacity [
     label="Community-based health program capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   health_communication_effectiveness [
     label="Health communication effectiveness"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // STRUCTURAL DETERMINANTS
   // ==================================================
   housing_stability [
     label="Housing stability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   income_security [
     label="Income security"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   transportation_access [
     label="Transportation access"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   environmental_conditions [
     label="Environmental conditions"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // STRUCTURAL INEQUITIES
   // ==================================================
   racialized_residential_segregation [
     label="Racialized residential segregation"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   occupational_stratification [
     label="Occupational stratification by race and gender"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   differential_environmental_exposure [
     label="Differential exposure to environmental hazards"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   inequitable_access_to_resources [
     label="Inequitable access to health-promoting resources"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // WORKFORCE
   // ==================================================
   primary_care_clinician_supply [
     label="Primary care clinician supply"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   specialist_clinician_supply [
     label="Specialist clinician supply"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   nursing_workforce_availability [
     label="Nursing workforce availability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   public_health_workforce_capacity [
     label="Public health workforce capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   // ==================================================
   // INFRASTRUCTURE
   // ==================================================
   hospital_bed_capacity [
     label="Hospital bed capacity"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   primary_care_facility_availability [
     label="Primary care facility availability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   health_it_interoperability [
     label="Health information technology interoperability"
   ];
-
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
   emergency_care_access [
     label="Emergency care access"
   ];
+/* Include here the justification for including this element in your system map or why you did not include it. Provide any relevant notes or questions about this element. You should also provide citations to the literature that informed your decision to include or exclude this element. */
+
 
 // =================================================
 // ELEMENT RELATIONSHIPS
